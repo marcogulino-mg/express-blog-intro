@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
 //Second route (bacheca)
 app.get("/bacheca", (req, res) => {
   //DEBUG MESSAGE
-  res.send("Sei dentro la route bacheca");
+  //res.send("Sei dentro la route bacheca");
 
   //Array of Objects
   const foods = [
@@ -53,6 +53,9 @@ app.get("/bacheca", (req, res) => {
       tags: ["Dolci", "Tradizione", "Lombardia"],
     },
   ];
+
+  //Send data in JSON format
+  res.json(foods);
 });
 
 app.listen(port, () => {
