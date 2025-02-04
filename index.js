@@ -28,28 +28,28 @@ app.get("/bacheca", (req, res) => {
       title: "Cracker alla barbabietola croccanti",
       content:
         "Snack sano e colorato, ideale per accompagnare formaggi e salse o da gustare da solo.",
-      img: "http://localhost:3000/public/images/cracker_barbabietola.jpeg",
+      img: "http://localhost:3000/images/cracker_barbabietola.jpeg",
       tags: ["Snack", "Barbabietola", "Sano"],
     },
     {
       title: "Pane fritto dolce della tradizione",
       content:
         "Un'antica ricetta che trasforma il pane in un dolce irresistibile, croccante fuori e morbido dentro.",
-      img: "http://localhost:3000/public/images/pane_fritto_dolce.jpeg",
+      img: "http://localhost:3000/images/pane_fritto_dolce.jpeg",
       tags: ["Dolci", "Tradizione", "Fritto"],
     },
     {
       title: "Pasta alla barbabietola cremosa",
       content:
         "Un primo piatto dal colore sorprendente e dal gusto delicato, perfetto per stupire gli ospiti.",
-      img: "http://localhost:3000/public/images/pasta_barbabietola.jpeg",
+      img: "http://localhost:3000/images/pasta_barbabietola.jpeg",
       tags: ["Primi Piatti", "Barbabietola", "Vegetariano"],
     },
     {
       title: "Torta paesana: il dolce della tradizione lombarda",
       content:
         "Un dolce rustico a base di pane raffermo, cacao e uvetta, ricco di sapore e storia.",
-      img: "http://localhost:3000/public/images/torta_paesana.jpeg",
+      img: "http://localhost:3000/images/torta_paesana.jpeg",
       tags: ["Dolci", "Tradizione", "Lombardia"],
     },
   ];
