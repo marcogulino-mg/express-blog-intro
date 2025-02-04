@@ -1,0 +1,25 @@
+{
+  "name": "express-blog-intro",
+  "version": "1.0.0",
+  "description": "Personal Blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "watch": "node --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcogulino-mg/express-blog-intro.git"
+  },
+  "keywords": [
+    "blog",
+    "personal"
+  ],
+  "author": "Marco Gulino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcogulino-mg/express-blog-intro/issues"
+  },
+  "homepage": "https://github.com/marcogulino-mg/express-blog-intro#readme"
+}
